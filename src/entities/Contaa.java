@@ -32,7 +32,7 @@ public class Contaa {
 	public void depositar(double value) {
 		saldo += value;
 		System.out.println("Depositado R$: " + value);
-		System.out.println("Total: " + saldo);
+		System.out.println("Total: R$: " + saldo);
 	}
 	
 	public void sacar(double value) {
@@ -41,10 +41,10 @@ public class Contaa {
 		} else {
 			saldo -= value;
 			System.out.println("Retirado R$: " + value);
-			System.out.println("Total: " + saldo);
+			System.out.println("Total: R$: " + saldo);
 		}
 	}
 	public String toString() {
-		return "Titular: " + nome + ", Número: " + numConta + ", R$: " + saldo;
+		return "NUMERO: " + numConta + " -- TITULAR: " + nome + " -- R$: " + saldo;
 	}
 }
