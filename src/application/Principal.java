@@ -102,9 +102,9 @@ public class Principal {
 			} else if(cond == 5) {
 				bank.mostrandoContas();
 			} else if(cond == 6) {
-				System.out.println("----------------------");
-				System.out.println("SISTEMA FINALIZADO!");
-				System.out.println("----------------------");
+				System.out.println("---------------------------------");
+				System.out.println("SISTEMA DO " + bank.getNomeBanco() + " FINALIZADO");
+				System.out.println("---------------------------------");
 				break;
 			} else {
 				System.out.println("Operação inválida");
