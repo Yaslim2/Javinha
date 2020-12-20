@@ -42,11 +42,11 @@ public class Principal {
 					System.out.print("Informe o saldo inicial: ");
 					saldoInicial = sc.nextDouble();
 					account = new Contaa(nome, numConta, saldoInicial);
-					System.out.println("Conta criada");
+					System.out.println("Conta criada!");
 					bank.getList().add(account);
 				} else {
 					account = new Contaa(nome, numConta);
-					System.out.println("Conta criada\n");
+					System.out.println("Conta criada!");
 					bank.getList().add(account);
 				}
 			} else if(cond == 2) {

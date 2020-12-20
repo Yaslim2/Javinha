@@ -1,9 +1,11 @@
 package entities;
 
 public class Contaa {
+	
 	private String nome;
 	private int numConta;
 	private double saldo;
+	
 	public Contaa(String nome, int numConta) {
 		this.nome = nome;
 		this.numConta = numConta;
